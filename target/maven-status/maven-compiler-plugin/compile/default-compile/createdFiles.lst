@@ -1,0 +1,9 @@
+com\example\AWSS3FileUpload\controller\ControllerFile.class
+com\example\AWSS3FileUpload\repository\RepositoryFile.class
+com\example\AWSS3FileUpload\config\ConfigCors.class
+com\example\AWSS3FileUpload\service\impl\ServiceFile.class
+com\example\AWSS3FileUpload\Awss3FileUploadApplication.class
+com\example\AWSS3FileUpload\entity\EntityFile$EntityFileBuilder.class
+com\example\AWSS3FileUpload\service\IfileService.class
+com\example\AWSS3FileUpload\entity\EntityFile.class
+com\example\AWSS3FileUpload\config\ConfigCors$1.class
