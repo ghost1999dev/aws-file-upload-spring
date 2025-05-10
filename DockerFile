@@ -1,5 +1,5 @@
 FROM openjdk:17-jdk-slim
-COPY target/AWSS3FileUpload-0.0.1.jar
+COPY target/AWSS3FileUpload-0.0.1.jar app.jar
 
 EXPOSE 5050
 ENTRYPOINT ["java","-jar","/app.jar"]
