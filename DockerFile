@@ -1,6 +1,5 @@
 FROM openjdk:17-jdk-slim
-ARG JAR_FILE=target/AWSS3FileUpload-0.0.1.jar
-COPY ${JAR_FILE}
-COPY ${JAR_FILE} app.jar
+COPY target/AWSS3FileUpload-0.0.1.jar
+
 EXPOSE 5050
 ENTRYPOINT ["java","-jar","/app.jar"]
